@@ -22,6 +22,12 @@ y la curiosidad de trabajar con Docker para crear un entorno de desarrollo repro
 - Entidades: Libro, Autor, Género y Lectura
 - Además, se utilizan dos tablas intermedias para resolver relaciones N:M : Autoría y Categorización.
 - Diagramas Modelo Entidad-Relación y Modelo Relacional.
+  
+### Modelo Entidad-Relación
+![Modelo Entidad-Relación](docs/SymbelLibrary-ModeloEntidadRelacion.jpg)
+
+### Modelo Relacional
+![Modelo Entidad-Relación](docs/SymbelLibrary-ModeloRelacional.jpg)
 
 ## Entorno Docker
 Este proyecto utiliza Docker para ejecutar dos servicios:
@@ -29,9 +35,9 @@ Este proyecto utiliza Docker para ejecutar dos servicios:
 - phpMyAdmin como interfaz web para administrar MariaDB.
 - Las credenciales se configuran mediante variables de entorno y no se almacenan en el repositorio.
 
-## Estado del proyecto:
+## Estado del proyecto
 Proyecto en desarrollo.
 
 
-## Autoría:
+## Autoría
 Belén Jiménez Sánchez
